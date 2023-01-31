@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
     // Using Sieve of Eratosthenes
     public int countPrimes(int n) {
@@ -42,10 +44,13 @@ public class Main {
 
     public static void main(String[] args) {
 //        System.out.println("Hello world!");
+//        Scanner sc = new Scanner(System.in);
         Main obj = new Main();
 //        Count prime till 100
-        System.out.println(obj.countPrimes(100));
+//        System.out.println("Enter the value of n:");
+//        int n = sc.nextInt();
+        System.out.println("The number of primes between 1 and 100: " + obj.countPrimes(100));
 //        Longest Common Subsequence for text1 = "AGGTAB" and text2 = "GXTXAYB"
-        System.out.println(obj.longestCommonSubsequence("AGGTAB","GXTXAYB"));
+        System.out.println("The longest common subsequence of text1 = \"AGGTAB\" and text2 = \"GXTXAYB\" : " + obj.longestCommonSubsequence("AGGTAB","GXTXAYB"));
     }
 }
