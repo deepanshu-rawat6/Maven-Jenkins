@@ -23,6 +23,10 @@ public class Main {
         }
     }
 
+    public boolean odd_or_even(int n) {
+        return (n&1) == 0;
+    }
+
     public int longestCommonSubsequence(String text1, String text2) {
         int m = text1.length();
         int n = text2.length();
@@ -52,5 +56,6 @@ public class Main {
         System.out.println("The number of primes between 1 and 100: " + obj.countPrimes(100));
 //        Longest Common Subsequence for text1 = "AGGTAB" and text2 = "GXTXAYB"
         System.out.println("The longest common subsequence of text1 = \"AGGTAB\" and text2 = \"GXTXAYB\" : " + obj.longestCommonSubsequence("AGGTAB","GXTXAYB"));
+        System.out.println(obj.odd_or_even(5));
     }
 }
