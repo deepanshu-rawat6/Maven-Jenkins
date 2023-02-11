@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fda85d1-9d6e-43fd-9381-d625ec93aaa3" name="Changes" comment="second commit">
+    <list default="true" id="1fda85d1-9d6e-43fd-9381-d625ec93aaa3" name="Changes" comment="adding odd even codes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +40,16 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn sonar:sonar" />
+      <command value="mvn clean install sonar:sonar" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -71,6 +80,14 @@
       <updated>1675154320714</updated>
       <workItem from="1675154322007" duration="2475000" />
       <workItem from="1675162441028" duration="1086000" />
+      <workItem from="1675234922765" duration="350000" />
+      <workItem from="1675239341851" duration="3000" />
+      <workItem from="1675256334390" duration="652000" />
+      <workItem from="1675396643086" duration="125000" />
+      <workItem from="1675591458058" duration="159000" />
+      <workItem from="1676028636470" duration="87000" />
+      <workItem from="1676048472511" duration="3140000" />
+      <workItem from="1676102142507" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675155528693</created>
@@ -86,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675163991823</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding odd even codes">
+      <created>1675235068850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675235068850</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="adding odd even codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding odd even codes" />
   </component>
 </project>
