@@ -20,12 +20,17 @@ public class Main {
         }
     }
 
-//    Odd or Even number logic
+    //    Odd or Even number logic
     public boolean OddOrEven(int n) {
         return (n&1) != 0;
     }
 
-//    Longest Common Subsequence
+    //   Left-Shift operator
+    public int leftShift(int x) {
+        return x<<1;
+    }
+
+    //    Longest Common Subsequence
     public int longestCommonSubsequence(String text1, String text2) {
         int m = text1.length();
         int n = text2.length();
@@ -52,5 +57,6 @@ public class Main {
 //        Longest Common Subsequence for text1 = "AGGTAB" and text2 = "GXTXAYB"
         System.out.println("The longest common subsequence of text1 = \"AGGTAB\" and text2 = \"GXTXAYB\" : " + obj.longestCommonSubsequence("AGGTAB","GXTXAYB"));
         System.out.println(obj.OddOrEven(5));
+        System.out.println(obj.leftShift(2));
     }
 }
